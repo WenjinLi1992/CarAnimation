@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED22849C1E66610A00E26ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED22849B1E66610A00E26ACC /* main.m */; };
+		ED22849F1E66610A00E26ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED22849E1E66610A00E26ACC /* AppDelegate.m */; };
+		ED2284A21E66610A00E26ACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2284A11E66610A00E26ACC /* ViewController.m */; };
+		ED2284A51E66610A00E26ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2284A31E66610A00E26ACC /* Main.storyboard */; };
+		ED2284A71E66610A00E26ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2284A61E66610A00E26ACC /* Assets.xcassets */; };
+		ED2284AA1E66610A00E26ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2284A81E66610A00E26ACC /* LaunchScreen.storyboard */; };
+		ED2284B51E66610A00E26ACC /* CarAnimationTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2284B41E66610A00E26ACC /* CarAnimationTwoTests.m */; };
+		ED2284C01E66610A00E26ACC /* CarAnimationTwoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2284BF1E66610A00E26ACC /* CarAnimationTwoUITests.m */; };
+		ED2284FC1E66611F00E26ACC /* Bugatti_man_1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284CE1E66611F00E26ACC /* Bugatti_man_1.png */; };
+		ED2284FD1E66611F00E26ACC /* Bugatti_man_10.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284CF1E66611F00E26ACC /* Bugatti_man_10.png */; };
+		ED2284FE1E66611F00E26ACC /* Bugatti_man_11.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284D01E66611F00E26ACC /* Bugatti_man_11.png */; };
+		ED2284FF1E66611F00E26ACC /* Bugatti_man_12.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284D11E66611F00E26ACC /* Bugatti_man_12.png */; };
+		ED2285001E66611F00E26ACC /* Bugatti_man_13.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284D21E66611F00E26ACC /* Bugatti_man_13.png */; };
+		ED2285011E66611F00E26ACC /* Bugatti_man_14.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284D31E66611F00E26ACC /* Bugatti_man_14.png */; };
+		ED2285021E66611F00E26ACC /* Bugatti_man_15.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284D41E66611F00E26ACC /* Bugatti_man_15.png */; };
+		ED2285031E66611F00E26ACC /* Bugatti_man_16.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284D51E66611F00E26ACC /* Bugatti_man_16.png */; };
+		ED2285041E66611F00E26ACC /* Bugatti_man_17.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284D61E66611F00E26ACC /* Bugatti_man_17.png */; };
+		ED2285051E66611F00E26ACC /* Bugatti_man_18.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284D71E66611F00E26ACC /* Bugatti_man_18.png */; };
+		ED2285061E66611F00E26ACC /* Bugatti_man_19.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284D81E66611F00E26ACC /* Bugatti_man_19.png */; };
+		ED2285071E66611F00E26ACC /* Bugatti_man_2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284D91E66611F00E26ACC /* Bugatti_man_2.png */; };
+		ED2285081E66611F00E26ACC /* Bugatti_man_20.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284DA1E66611F00E26ACC /* Bugatti_man_20.png */; };
+		ED2285091E66611F00E26ACC /* Bugatti_man_21.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284DB1E66611F00E26ACC /* Bugatti_man_21.png */; };
+		ED22850A1E66611F00E26ACC /* Bugatti_man_22.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284DC1E66611F00E26ACC /* Bugatti_man_22.png */; };
+		ED22850B1E66611F00E26ACC /* Bugatti_man_23.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284DD1E66611F00E26ACC /* Bugatti_man_23.png */; };
+		ED22850C1E66611F00E26ACC /* Bugatti_man_24.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284DE1E66611F00E26ACC /* Bugatti_man_24.png */; };
+		ED22850D1E66611F00E26ACC /* Bugatti_man_25.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284DF1E66611F00E26ACC /* Bugatti_man_25.png */; };
+		ED22850E1E66611F00E26ACC /* Bugatti_man_26.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284E01E66611F00E26ACC /* Bugatti_man_26.png */; };
+		ED22850F1E66611F00E26ACC /* Bugatti_man_27.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284E11E66611F00E26ACC /* Bugatti_man_27.png */; };
+		ED2285101E66611F00E26ACC /* Bugatti_man_28.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284E21E66611F00E26ACC /* Bugatti_man_28.png */; };
+		ED2285111E66611F00E26ACC /* Bugatti_man_29.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284E31E66611F00E26ACC /* Bugatti_man_29.png */; };
+		ED2285121E66611F00E26ACC /* Bugatti_man_3.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284E41E66611F00E26ACC /* Bugatti_man_3.png */; };
+		ED2285131E66611F00E26ACC /* Bugatti_man_30.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284E51E66611F00E26ACC /* Bugatti_man_30.png */; };
+		ED2285141E66612000E26ACC /* Bugatti_man_31.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284E61E66611F00E26ACC /* Bugatti_man_31.png */; };
+		ED2285151E66612000E26ACC /* Bugatti_man_32.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284E71E66611F00E26ACC /* Bugatti_man_32.png */; };
+		ED2285161E66612000E26ACC /* Bugatti_man_33.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284E81E66611F00E26ACC /* Bugatti_man_33.png */; };
+		ED2285171E66612000E26ACC /* Bugatti_man_34.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284E91E66611F00E26ACC /* Bugatti_man_34.png */; };
+		ED2285181E66612000E26ACC /* Bugatti_man_35.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284EA1E66611F00E26ACC /* Bugatti_man_35.png */; };
+		ED2285191E66612000E26ACC /* Bugatti_man_36.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284EB1E66611F00E26ACC /* Bugatti_man_36.png */; };
+		ED22851A1E66612000E26ACC /* Bugatti_man_37.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284EC1E66611F00E26ACC /* Bugatti_man_37.png */; };
+		ED22851B1E66612000E26ACC /* Bugatti_man_38.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284ED1E66611F00E26ACC /* Bugatti_man_38.png */; };
+		ED22851C1E66612000E26ACC /* Bugatti_man_39.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284EE1E66611F00E26ACC /* Bugatti_man_39.png */; };
+		ED22851D1E66612000E26ACC /* Bugatti_man_4.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284EF1E66611F00E26ACC /* Bugatti_man_4.png */; };
+		ED22851E1E66612000E26ACC /* Bugatti_man_40.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284F01E66611F00E26ACC /* Bugatti_man_40.png */; };
+		ED22851F1E66612000E26ACC /* Bugatti_man_41.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284F11E66611F00E26ACC /* Bugatti_man_41.png */; };
+		ED2285201E66612000E26ACC /* Bugatti_man_42.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284F21E66611F00E26ACC /* Bugatti_man_42.png */; };
+		ED2285211E66612000E26ACC /* Bugatti_man_43.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284F31E66611F00E26ACC /* Bugatti_man_43.png */; };
+		ED2285221E66612000E26ACC /* Bugatti_man_44.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284F41E66611F00E26ACC /* Bugatti_man_44.png */; };
+		ED2285231E66612000E26ACC /* Bugatti_man_45.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284F51E66611F00E26ACC /* Bugatti_man_45.png */; };
+		ED2285241E66612000E26ACC /* Bugatti_man_46.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284F61E66611F00E26ACC /* Bugatti_man_46.png */; };
+		ED2285251E66612000E26ACC /* Bugatti_man_5.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284F71E66611F00E26ACC /* Bugatti_man_5.png */; };
+		ED2285261E66612000E26ACC /* Bugatti_man_6.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284F81E66611F00E26ACC /* Bugatti_man_6.png */; };
+		ED2285271E66612000E26ACC /* Bugatti_man_7.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284F91E66611F00E26ACC /* Bugatti_man_7.png */; };
+		ED2285281E66612000E26ACC /* Bugatti_man_8.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284FA1E66611F00E26ACC /* Bugatti_man_8.png */; };
+		ED2285291E66612000E26ACC /* Bugatti_man_9.png in Resources */ = {isa = PBXBuildFile; fileRef = ED2284FB1E66611F00E26ACC /* Bugatti_man_9.png */; };
+		ED22852C1E66620400E26ACC /* CarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED22852B1E66620400E26ACC /* CarImageView.m */; };
+		ED22867B1E66A3C500E26ACC /* CarAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = ED22867A1E66A3C500E26ACC /* CarAnimation.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED2284B11E66610A00E26ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED22848F1E66610A00E26ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED2284961E66610A00E26ACC;
+			remoteInfo = CarAnimationTwo;
+		};
+		ED2284BC1E66610A00E26ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED22848F1E66610A00E26ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED2284961E66610A00E26ACC;
+			remoteInfo = CarAnimationTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED2284971E66610A00E26ACC /* CarAnimationTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarAnimationTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED22849B1E66610A00E26ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED22849D1E66610A00E26ACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED22849E1E66610A00E26ACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED2284A01E66610A00E26ACC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED2284A11E66610A00E26ACC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED2284A41E66610A00E26ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED2284A61E66610A00E26ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED2284A91E66610A00E26ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED2284AB1E66610A00E26ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2284B01E66610A00E26ACC /* CarAnimationTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarAnimationTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2284B41E66610A00E26ACC /* CarAnimationTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarAnimationTwoTests.m; sourceTree = "<group>"; };
+		ED2284B61E66610A00E26ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2284BB1E66610A00E26ACC /* CarAnimationTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarAnimationTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2284BF1E66610A00E26ACC /* CarAnimationTwoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarAnimationTwoUITests.m; sourceTree = "<group>"; };
+		ED2284C11E66610A00E26ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2284CE1E66611F00E26ACC /* Bugatti_man_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_1.png; sourceTree = "<group>"; };
+		ED2284CF1E66611F00E26ACC /* Bugatti_man_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_10.png; sourceTree = "<group>"; };
+		ED2284D01E66611F00E26ACC /* Bugatti_man_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_11.png; sourceTree = "<group>"; };
+		ED2284D11E66611F00E26ACC /* Bugatti_man_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_12.png; sourceTree = "<group>"; };
+		ED2284D21E66611F00E26ACC /* Bugatti_man_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_13.png; sourceTree = "<group>"; };
+		ED2284D31E66611F00E26ACC /* Bugatti_man_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_14.png; sourceTree = "<group>"; };
+		ED2284D41E66611F00E26ACC /* Bugatti_man_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_15.png; sourceTree = "<group>"; };
+		ED2284D51E66611F00E26ACC /* Bugatti_man_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_16.png; sourceTree = "<group>"; };
+		ED2284D61E66611F00E26ACC /* Bugatti_man_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_17.png; sourceTree = "<group>"; };
+		ED2284D71E66611F00E26ACC /* Bugatti_man_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_18.png; sourceTree = "<group>"; };
+		ED2284D81E66611F00E26ACC /* Bugatti_man_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_19.png; sourceTree = "<group>"; };
+		ED2284D91E66611F00E26ACC /* Bugatti_man_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_2.png; sourceTree = "<group>"; };
+		ED2284DA1E66611F00E26ACC /* Bugatti_man_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_20.png; sourceTree = "<group>"; };
+		ED2284DB1E66611F00E26ACC /* Bugatti_man_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_21.png; sourceTree = "<group>"; };
+		ED2284DC1E66611F00E26ACC /* Bugatti_man_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_22.png; sourceTree = "<group>"; };
+		ED2284DD1E66611F00E26ACC /* Bugatti_man_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_23.png; sourceTree = "<group>"; };
+		ED2284DE1E66611F00E26ACC /* Bugatti_man_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_24.png; sourceTree = "<group>"; };
+		ED2284DF1E66611F00E26ACC /* Bugatti_man_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_25.png; sourceTree = "<group>"; };
+		ED2284E01E66611F00E26ACC /* Bugatti_man_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_26.png; sourceTree = "<group>"; };
+		ED2284E11E66611F00E26ACC /* Bugatti_man_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_27.png; sourceTree = "<group>"; };
+		ED2284E21E66611F00E26ACC /* Bugatti_man_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_28.png; sourceTree = "<group>"; };
+		ED2284E31E66611F00E26ACC /* Bugatti_man_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_29.png; sourceTree = "<group>"; };
+		ED2284E41E66611F00E26ACC /* Bugatti_man_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_3.png; sourceTree = "<group>"; };
+		ED2284E51E66611F00E26ACC /* Bugatti_man_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_30.png; sourceTree = "<group>"; };
+		ED2284E61E66611F00E26ACC /* Bugatti_man_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_31.png; sourceTree = "<group>"; };
+		ED2284E71E66611F00E26ACC /* Bugatti_man_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_32.png; sourceTree = "<group>"; };
+		ED2284E81E66611F00E26ACC /* Bugatti_man_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_33.png; sourceTree = "<group>"; };
+		ED2284E91E66611F00E26ACC /* Bugatti_man_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_34.png; sourceTree = "<group>"; };
+		ED2284EA1E66611F00E26ACC /* Bugatti_man_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_35.png; sourceTree = "<group>"; };
+		ED2284EB1E66611F00E26ACC /* Bugatti_man_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_36.png; sourceTree = "<group>"; };
+		ED2284EC1E66611F00E26ACC /* Bugatti_man_37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_37.png; sourceTree = "<group>"; };
+		ED2284ED1E66611F00E26ACC /* Bugatti_man_38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_38.png; sourceTree = "<group>"; };
+		ED2284EE1E66611F00E26ACC /* Bugatti_man_39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_39.png; sourceTree = "<group>"; };
+		ED2284EF1E66611F00E26ACC /* Bugatti_man_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_4.png; sourceTree = "<group>"; };
+		ED2284F01E66611F00E26ACC /* Bugatti_man_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_40.png; sourceTree = "<group>"; };
+		ED2284F11E66611F00E26ACC /* Bugatti_man_41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_41.png; sourceTree = "<group>"; };
+		ED2284F21E66611F00E26ACC /* Bugatti_man_42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_42.png; sourceTree = "<group>"; };
+		ED2284F31E66611F00E26ACC /* Bugatti_man_43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_43.png; sourceTree = "<group>"; };
+		ED2284F41E66611F00E26ACC /* Bugatti_man_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_44.png; sourceTree = "<group>"; };
+		ED2284F51E66611F00E26ACC /* Bugatti_man_45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_45.png; sourceTree = "<group>"; };
+		ED2284F61E66611F00E26ACC /* Bugatti_man_46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_46.png; sourceTree = "<group>"; };
+		ED2284F71E66611F00E26ACC /* Bugatti_man_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_5.png; sourceTree = "<group>"; };
+		ED2284F81E66611F00E26ACC /* Bugatti_man_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_6.png; sourceTree = "<group>"; };
+		ED2284F91E66611F00E26ACC /* Bugatti_man_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_7.png; sourceTree = "<group>"; };
+		ED2284FA1E66611F00E26ACC /* Bugatti_man_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_8.png; sourceTree = "<group>"; };
+		ED2284FB1E66611F00E26ACC /* Bugatti_man_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bugatti_man_9.png; sourceTree = "<group>"; };
+		ED22852A1E66620400E26ACC /* CarImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarImageView.h; sourceTree = "<group>"; };
+		ED22852B1E66620400E26ACC /* CarImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarImageView.m; sourceTree = "<group>"; };
+		ED22867A1E66A3C500E26ACC /* CarAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CarAnimation.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED2284941E66610A00E26ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2284AD1E66610A00E26ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2284B81E66610A00E26ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED22848E1E66610A00E26ACC = {
+			isa = PBXGroup;
+			children = (
+				ED2284991E66610A00E26ACC /* CarAnimationTwo */,
+				ED2284B31E66610A00E26ACC /* CarAnimationTwoTests */,
+				ED2284BE1E66610A00E26ACC /* CarAnimationTwoUITests */,
+				ED2284981E66610A00E26ACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED2284981E66610A00E26ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED2284971E66610A00E26ACC /* CarAnimationTwo.app */,
+				ED2284B01E66610A00E26ACC /* CarAnimationTwoTests.xctest */,
+				ED2284BB1E66610A00E26ACC /* CarAnimationTwoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED2284991E66610A00E26ACC /* CarAnimationTwo */ = {
+			isa = PBXGroup;
+			children = (
+				ED22849D1E66610A00E26ACC /* AppDelegate.h */,
+				ED22849E1E66610A00E26ACC /* AppDelegate.m */,
+				ED2284A01E66610A00E26ACC /* ViewController.h */,
+				ED2284A11E66610A00E26ACC /* ViewController.m */,
+				ED22852A1E66620400E26ACC /* CarImageView.h */,
+				ED22852B1E66620400E26ACC /* CarImageView.m */,
+				ED22867A1E66A3C500E26ACC /* CarAnimation.json */,
+				ED2284CD1E66611F00E26ACC /* Bugatti_man */,
+				ED2284A31E66610A00E26ACC /* Main.storyboard */,
+				ED2284A61E66610A00E26ACC /* Assets.xcassets */,
+				ED2284A81E66610A00E26ACC /* LaunchScreen.storyboard */,
+				ED2284AB1E66610A00E26ACC /* Info.plist */,
+				ED22849A1E66610A00E26ACC /* Supporting Files */,
+			);
+			path = CarAnimationTwo;
+			sourceTree = "<group>";
+		};
+		ED22849A1E66610A00E26ACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED22849B1E66610A00E26ACC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED2284B31E66610A00E26ACC /* CarAnimationTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED2284B41E66610A00E26ACC /* CarAnimationTwoTests.m */,
+				ED2284B61E66610A00E26ACC /* Info.plist */,
+			);
+			path = CarAnimationTwoTests;
+			sourceTree = "<group>";
+		};
+		ED2284BE1E66610A00E26ACC /* CarAnimationTwoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED2284BF1E66610A00E26ACC /* CarAnimationTwoUITests.m */,
+				ED2284C11E66610A00E26ACC /* Info.plist */,
+			);
+			path = CarAnimationTwoUITests;
+			sourceTree = "<group>";
+		};
+		ED2284CD1E66611F00E26ACC /* Bugatti_man */ = {
+			isa = PBXGroup;
+			children = (
+				ED2284CE1E66611F00E26ACC /* Bugatti_man_1.png */,
+				ED2284CF1E66611F00E26ACC /* Bugatti_man_10.png */,
+				ED2284D01E66611F00E26ACC /* Bugatti_man_11.png */,
+				ED2284D11E66611F00E26ACC /* Bugatti_man_12.png */,
+				ED2284D21E66611F00E26ACC /* Bugatti_man_13.png */,
+				ED2284D31E66611F00E26ACC /* Bugatti_man_14.png */,
+				ED2284D41E66611F00E26ACC /* Bugatti_man_15.png */,
+				ED2284D51E66611F00E26ACC /* Bugatti_man_16.png */,
+				ED2284D61E66611F00E26ACC /* Bugatti_man_17.png */,
+				ED2284D71E66611F00E26ACC /* Bugatti_man_18.png */,
+				ED2284D81E66611F00E26ACC /* Bugatti_man_19.png */,
+				ED2284D91E66611F00E26ACC /* Bugatti_man_2.png */,
+				ED2284DA1E66611F00E26ACC /* Bugatti_man_20.png */,
+				ED2284DB1E66611F00E26ACC /* Bugatti_man_21.png */,
+				ED2284DC1E66611F00E26ACC /* Bugatti_man_22.png */,
+				ED2284DD1E66611F00E26ACC /* Bugatti_man_23.png */,
+				ED2284DE1E66611F00E26ACC /* Bugatti_man_24.png */,
+				ED2284DF1E66611F00E26ACC /* Bugatti_man_25.png */,
+				ED2284E01E66611F00E26ACC /* Bugatti_man_26.png */,
+				ED2284E11E66611F00E26ACC /* Bugatti_man_27.png */,
+				ED2284E21E66611F00E26ACC /* Bugatti_man_28.png */,
+				ED2284E31E66611F00E26ACC /* Bugatti_man_29.png */,
+				ED2284E41E66611F00E26ACC /* Bugatti_man_3.png */,
+				ED2284E51E66611F00E26ACC /* Bugatti_man_30.png */,
+				ED2284E61E66611F00E26ACC /* Bugatti_man_31.png */,
+				ED2284E71E66611F00E26ACC /* Bugatti_man_32.png */,
+				ED2284E81E66611F00E26ACC /* Bugatti_man_33.png */,
+				ED2284E91E66611F00E26ACC /* Bugatti_man_34.png */,
+				ED2284EA1E66611F00E26ACC /* Bugatti_man_35.png */,
+				ED2284EB1E66611F00E26ACC /* Bugatti_man_36.png */,
+				ED2284EC1E66611F00E26ACC /* Bugatti_man_37.png */,
+				ED2284ED1E66611F00E26ACC /* Bugatti_man_38.png */,
+				ED2284EE1E66611F00E26ACC /* Bugatti_man_39.png */,
+				ED2284EF1E66611F00E26ACC /* Bugatti_man_4.png */,
+				ED2284F01E66611F00E26ACC /* Bugatti_man_40.png */,
+				ED2284F11E66611F00E26ACC /* Bugatti_man_41.png */,
+				ED2284F21E66611F00E26ACC /* Bugatti_man_42.png */,
+				ED2284F31E66611F00E26ACC /* Bugatti_man_43.png */,
+				ED2284F41E66611F00E26ACC /* Bugatti_man_44.png */,
+				ED2284F51E66611F00E26ACC /* Bugatti_man_45.png */,
+				ED2284F61E66611F00E26ACC /* Bugatti_man_46.png */,
+				ED2284F71E66611F00E26ACC /* Bugatti_man_5.png */,
+				ED2284F81E66611F00E26ACC /* Bugatti_man_6.png */,
+				ED2284F91E66611F00E26ACC /* Bugatti_man_7.png */,
+				ED2284FA1E66611F00E26ACC /* Bugatti_man_8.png */,
+				ED2284FB1E66611F00E26ACC /* Bugatti_man_9.png */,
+			);
+			path = Bugatti_man;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED2284961E66610A00E26ACC /* CarAnimationTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2284C41E66610A00E26ACC /* Build configuration list for PBXNativeTarget "CarAnimationTwo" */;
+			buildPhases = (
+				ED2284931E66610A00E26ACC /* Sources */,
+				ED2284941E66610A00E26ACC /* Frameworks */,
+				ED2284951E66610A00E26ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarAnimationTwo;
+			productName = CarAnimationTwo;
+			productReference = ED2284971E66610A00E26ACC /* CarAnimationTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED2284AF1E66610A00E26ACC /* CarAnimationTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2284C71E66610A00E26ACC /* Build configuration list for PBXNativeTarget "CarAnimationTwoTests" */;
+			buildPhases = (
+				ED2284AC1E66610A00E26ACC /* Sources */,
+				ED2284AD1E66610A00E26ACC /* Frameworks */,
+				ED2284AE1E66610A00E26ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED2284B21E66610A00E26ACC /* PBXTargetDependency */,
+			);
+			name = CarAnimationTwoTests;
+			productName = CarAnimationTwoTests;
+			productReference = ED2284B01E66610A00E26ACC /* CarAnimationTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED2284BA1E66610A00E26ACC /* CarAnimationTwoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2284CA1E66610A00E26ACC /* Build configuration list for PBXNativeTarget "CarAnimationTwoUITests" */;
+			buildPhases = (
+				ED2284B71E66610A00E26ACC /* Sources */,
+				ED2284B81E66610A00E26ACC /* Frameworks */,
+				ED2284B91E66610A00E26ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED2284BD1E66610A00E26ACC /* PBXTargetDependency */,
+			);
+			name = CarAnimationTwoUITests;
+			productName = CarAnimationTwoUITests;
+			productReference = ED2284BB1E66610A00E26ACC /* CarAnimationTwoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED22848F1E66610A00E26ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "WenJin Li";
+				TargetAttributes = {
+					ED2284961E66610A00E26ACC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WUFQ2E5U2G;
+						ProvisioningStyle = Manual;
+					};
+					ED2284AF1E66610A00E26ACC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED2284961E66610A00E26ACC;
+					};
+					ED2284BA1E66610A00E26ACC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED2284961E66610A00E26ACC;
+					};
+				};
+			};
+			buildConfigurationList = ED2284921E66610A00E26ACC /* Build configuration list for PBXProject "CarAnimationTwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED22848E1E66610A00E26ACC;
+			productRefGroup = ED2284981E66610A00E26ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED2284961E66610A00E26ACC /* CarAnimationTwo */,
+				ED2284AF1E66610A00E26ACC /* CarAnimationTwoTests */,
+				ED2284BA1E66610A00E26ACC /* CarAnimationTwoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED2284951E66610A00E26ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2285011E66611F00E26ACC /* Bugatti_man_14.png in Resources */,
+				ED22851A1E66612000E26ACC /* Bugatti_man_37.png in Resources */,
+				ED2285081E66611F00E26ACC /* Bugatti_man_20.png in Resources */,
+				ED22851E1E66612000E26ACC /* Bugatti_man_40.png in Resources */,
+				ED22851C1E66612000E26ACC /* Bugatti_man_39.png in Resources */,
+				ED2285201E66612000E26ACC /* Bugatti_man_42.png in Resources */,
+				ED2284FF1E66611F00E26ACC /* Bugatti_man_12.png in Resources */,
+				ED2285121E66611F00E26ACC /* Bugatti_man_3.png in Resources */,
+				ED22850E1E66611F00E26ACC /* Bugatti_man_26.png in Resources */,
+				ED2284FD1E66611F00E26ACC /* Bugatti_man_10.png in Resources */,
+				ED2285041E66611F00E26ACC /* Bugatti_man_17.png in Resources */,
+				ED22867B1E66A3C500E26ACC /* CarAnimation.json in Resources */,
+				ED22850C1E66611F00E26ACC /* Bugatti_man_24.png in Resources */,
+				ED2284AA1E66610A00E26ACC /* LaunchScreen.storyboard in Resources */,
+				ED2285001E66611F00E26ACC /* Bugatti_man_13.png in Resources */,
+				ED2285271E66612000E26ACC /* Bugatti_man_7.png in Resources */,
+				ED2285101E66611F00E26ACC /* Bugatti_man_28.png in Resources */,
+				ED2285111E66611F00E26ACC /* Bugatti_man_29.png in Resources */,
+				ED2285261E66612000E26ACC /* Bugatti_man_6.png in Resources */,
+				ED2285211E66612000E26ACC /* Bugatti_man_43.png in Resources */,
+				ED2285131E66611F00E26ACC /* Bugatti_man_30.png in Resources */,
+				ED2285091E66611F00E26ACC /* Bugatti_man_21.png in Resources */,
+				ED22851B1E66612000E26ACC /* Bugatti_man_38.png in Resources */,
+				ED2285281E66612000E26ACC /* Bugatti_man_8.png in Resources */,
+				ED22850B1E66611F00E26ACC /* Bugatti_man_23.png in Resources */,
+				ED2285161E66612000E26ACC /* Bugatti_man_33.png in Resources */,
+				ED2285141E66612000E26ACC /* Bugatti_man_31.png in Resources */,
+				ED2285021E66611F00E26ACC /* Bugatti_man_15.png in Resources */,
+				ED2285191E66612000E26ACC /* Bugatti_man_36.png in Resources */,
+				ED2285061E66611F00E26ACC /* Bugatti_man_19.png in Resources */,
+				ED2284A71E66610A00E26ACC /* Assets.xcassets in Resources */,
+				ED2284FE1E66611F00E26ACC /* Bugatti_man_11.png in Resources */,
+				ED2284A51E66610A00E26ACC /* Main.storyboard in Resources */,
+				ED2285051E66611F00E26ACC /* Bugatti_man_18.png in Resources */,
+				ED2285181E66612000E26ACC /* Bugatti_man_35.png in Resources */,
+				ED2285171E66612000E26ACC /* Bugatti_man_34.png in Resources */,
+				ED2284FC1E66611F00E26ACC /* Bugatti_man_1.png in Resources */,
+				ED2285241E66612000E26ACC /* Bugatti_man_46.png in Resources */,
+				ED2285221E66612000E26ACC /* Bugatti_man_44.png in Resources */,
+				ED22850A1E66611F00E26ACC /* Bugatti_man_22.png in Resources */,
+				ED22850D1E66611F00E26ACC /* Bugatti_man_25.png in Resources */,
+				ED2285251E66612000E26ACC /* Bugatti_man_5.png in Resources */,
+				ED2285071E66611F00E26ACC /* Bugatti_man_2.png in Resources */,
+				ED2285231E66612000E26ACC /* Bugatti_man_45.png in Resources */,
+				ED2285031E66611F00E26ACC /* Bugatti_man_16.png in Resources */,
+				ED22851D1E66612000E26ACC /* Bugatti_man_4.png in Resources */,
+				ED22851F1E66612000E26ACC /* Bugatti_man_41.png in Resources */,
+				ED2285151E66612000E26ACC /* Bugatti_man_32.png in Resources */,
+				ED22850F1E66611F00E26ACC /* Bugatti_man_27.png in Resources */,
+				ED2285291E66612000E26ACC /* Bugatti_man_9.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2284AE1E66610A00E26ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2284B91E66610A00E26ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED2284931E66610A00E26ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2284A21E66610A00E26ACC /* ViewController.m in Sources */,
+				ED22852C1E66620400E26ACC /* CarImageView.m in Sources */,
+				ED22849F1E66610A00E26ACC /* AppDelegate.m in Sources */,
+				ED22849C1E66610A00E26ACC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2284AC1E66610A00E26ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2284B51E66610A00E26ACC /* CarAnimationTwoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2284B71E66610A00E26ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2284C01E66610A00E26ACC /* CarAnimationTwoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED2284B21E66610A00E26ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED2284961E66610A00E26ACC /* CarAnimationTwo */;
+			targetProxy = ED2284B11E66610A00E26ACC /* PBXContainerItemProxy */;
+		};
+		ED2284BD1E66610A00E26ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED2284961E66610A00E26ACC /* CarAnimationTwo */;
+			targetProxy = ED2284BC1E66610A00E26ACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED2284A31E66610A00E26ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2284A41E66610A00E26ACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED2284A81E66610A00E26ACC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2284A91E66610A00E26ACC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED2284C21E66610A00E26ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED2284C31E66610A00E26ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED2284C51E66610A00E26ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cheng Huang (9M85AWN6GQ)";
+				DEVELOPMENT_TEAM = WUFQ2E5U2G;
+				INFOPLIST_FILE = CarAnimationTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinhe.-.CarAnimationTwo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "44aed762-cae0-4e54-a91d-6d9207f38a9a";
+				PROVISIONING_PROFILE_SPECIFIER = Test;
+			};
+			name = Debug;
+		};
+		ED2284C61E66610A00E26ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cheng Huang (9M85AWN6GQ)";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CarAnimationTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinhe.-.CarAnimationTwo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED2284C81E66610A00E26ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarAnimationTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinhe.-.CarAnimationTwoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarAnimationTwo.app/CarAnimationTwo";
+			};
+			name = Debug;
+		};
+		ED2284C91E66610A00E26ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarAnimationTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinhe.-.CarAnimationTwoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarAnimationTwo.app/CarAnimationTwo";
+			};
+			name = Release;
+		};
+		ED2284CB1E66610A00E26ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarAnimationTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinhe.-.CarAnimationTwoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarAnimationTwo;
+			};
+			name = Debug;
+		};
+		ED2284CC1E66610A00E26ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarAnimationTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qinhe.-.CarAnimationTwoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarAnimationTwo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED2284921E66610A00E26ACC /* Build configuration list for PBXProject "CarAnimationTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2284C21E66610A00E26ACC /* Debug */,
+				ED2284C31E66610A00E26ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2284C41E66610A00E26ACC /* Build configuration list for PBXNativeTarget "CarAnimationTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2284C51E66610A00E26ACC /* Debug */,
+				ED2284C61E66610A00E26ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2284C71E66610A00E26ACC /* Build configuration list for PBXNativeTarget "CarAnimationTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2284C81E66610A00E26ACC /* Debug */,
+				ED2284C91E66610A00E26ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2284CA1E66610A00E26ACC /* Build configuration list for PBXNativeTarget "CarAnimationTwoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2284CB1E66610A00E26ACC /* Debug */,
+				ED2284CC1E66610A00E26ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED22848F1E66610A00E26ACC /* Project object */;
+}
